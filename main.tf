@@ -8,7 +8,7 @@ resource "aws_vpc" "myvpc" {
     Name = "My VPC"
   }
 }
-
+/*
 resource "aws_vpc" "myothervpc" {
   cidr_block = "10.1.0.0/16"
   tags = {
@@ -22,3 +22,4 @@ resource "aws_vpc" "yetanothervpc" {
     Name = "Yet Another VPC"
   }
 }
+*/
